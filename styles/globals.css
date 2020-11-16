@@ -1,9 +1,15 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/Gilroy-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: bold;
+  src: url("../fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Gilroy;
 }
 
 a {
@@ -11,6 +17,125 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.container {
+  padding: 0 10%;
+  background: linear-gradient(-45deg, rgba(255,255,255,0.1) 79%, rgba(255,70,70,0.1) 100%);
 }
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+.left-side {
+  width: 50%;
+}
+.right-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-brand {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.nav-brand > span {
+  color: #FF4646;
+}
+
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.my-name {
+  font-size: 110px;
+  font-weight: 300;
+}
+.my-name span {
+  font-weight: bold;
+}
+.content {
+  width: 60%;
+  font-size: 28px;
+}
+.content > img {
+  display: none;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-size: 28px;
+  color: #fff;
+  padding: 20px 49px;
+  border-radius: 37px;
+  border: 1px solid #FF4646;
+  background-color: #FF4646;
+}
+.social-icon {
+  border-radius: 37px;
+  margin-left: 31px;
+  box-shadow: 0 15px 20px  #e3e3e3;
+  padding: 11px;
+}
+.social-media {
+  display: flex;
+}
+.social-icon > img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 768px) { 
+  .left-side {
+    width: 100%;
+  }
+  .nav{
+    justify-content: space-between;
+  }
+  .content {
+    width: 100%;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .right-side {
+    display: none;
+  }
+  .content > img {
+    display: block;
+  }
+ }
+ @media (max-width: 575.98px) { 
+   .social-icon {
+     margin-left: 0px;
+     margin-right: 10px;
+     padding: 10px;
+   }
+   .social-media{
+    margin-left:10px
+   }
+   .my-name{
+     font-size: 60px;
+   }
+   .content {
+     font-size: 19px;
+   }
+   .button{
+     font-size: 19px;
+     padding: 10px 20px;
+   }
+  }
