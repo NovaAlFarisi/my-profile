@@ -9,6 +9,7 @@
 }
 html,
 body {
+  margin:0;
   font-family: Gilroy;
 }
 
@@ -24,6 +25,7 @@ a {
 .wrapper {
   display: flex;
   width: 100%;
+  margin-bottom: 20px;
 }
 .left-side {
   width: 50%;
@@ -39,6 +41,7 @@ a {
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-brand {
   font-weight: bold;
@@ -55,7 +58,7 @@ a {
 .nav-item {
   list-style: none;
   font-size: 24px;
-  margin-right: 10px;
+  margin-right: 50px;
 }
 .my-name {
   font-size: 110px;
@@ -98,7 +101,10 @@ a {
   width: 32px;
   height: 32px;
 }
-
+ul.nav-items{
+  padding: 0;
+  margin:auto auto;
+}
 @media (max-width: 768px) { 
   .left-side {
     width: 100%;
@@ -137,5 +143,8 @@ a {
    .button{
      font-size: 19px;
      padding: 10px 20px;
+   }
+   .nav{
+     flex-direction: column;
    }
   }
