@@ -27,7 +27,7 @@ export default function Home() {
                 <p>I'm an junior full-stack programmer from South Jakarta. currently working at <b>PT. Klip Plastik Indonesia</b> as Web Developer.<br/><br/> I'm currently looking for a new job, please hit the button below to get my Curriculum Vitae (CV).</p>
               </div>
               <div className="social" id="social">
-                  <a href="https://drive.google.com/file/d/118roO9KSrPuDNJvA0QOsY_-bqej3mX-f/view?usp=sharing" target="_blank" className="button">Get CV</a>
+                  <a href="https://drive.google.com/file/d/1hPMPtEr_DN7nV1wrbqEWpaqdrd-5DQTE/view?usp=sharing" target="_blank" className="button">Get CV</a>
                   <div className="social-media">
                     <a href="https://www.linkedin.com/in/nova-al-farisi-26a0b719b/" target="_blank" className="social-icon"><img src="/linkedin.png" alt="Social"/></a>
                     <a href="https://instagram.com/nova_alfarisi" target="_blank" className="social-icon"><img src="/instagram.png" alt="Social"/></a>
