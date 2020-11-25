@@ -24,10 +24,10 @@ export default function Home() {
               <div className="content">
                 <h1 className="my-name"><span>Nova Al</span> Farisi</h1>
                 <img src="/nopa.jpeg" alt="picture" className="image"/>
-                <p>I'm an junior full-stack programmer from South Jakarta. currently working at <b>PT. Klip Plastik Indonesia</b> as Web Developer.<br/><br/> I'm currently looking for a new job, please hit the button below to get my Curriculum Vitae (CV).</p>
+                <p>I'm an junior full-stack programmer from South Jakarta. currently working at <b>PT. Klip Plastik Indonesia</b> as Web Developer.<br/><br/> I'm currently looking for a new job, please hit the button below to get my resume.</p>
               </div>
               <div className="social" id="social">
-                  <a href="https://drive.google.com/file/d/1hPMPtEr_DN7nV1wrbqEWpaqdrd-5DQTE/view?usp=sharing" target="_blank" className="button">Get CV</a>
+                  <a href="https://drive.google.com/file/d/1hPMPtEr_DN7nV1wrbqEWpaqdrd-5DQTE/view?usp=sharing" target="_blank" className="button">Get Resume</a>
                   <div className="social-media">
                     <a href="https://www.linkedin.com/in/nova-al-farisi-26a0b719b/" target="_blank" className="social-icon"><img src="/linkedin.png" alt="Social"/></a>
                     <a href="https://instagram.com/nova_alfarisi" target="_blank" className="social-icon"><img src="/instagram.png" alt="Social"/></a>
